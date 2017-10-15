@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Пост доски обьявления</title>
+</head>
+<body>
+<div>
+<form  enctype="multipart/form-data" action="http://127.0.0.1/form_post/post_form.php"  method="post">
+    <div>
+       <h2>Создать обьявления: </h2>
+            <input type="text" name="title" placeholder="Название обьявления">
+    </div>
+    <div>
+        <p>Сообщение:</p>
+            <textarea name="message" placeholder="текст обьявления..." cols="30" rows="5"></textarea>
+    </div>
+    <div>
+        <p>Ваш Email: </p>
+            <input  type="email" name="email" placeholder="Email">
+    </div>
+    <div>
+        <p>Загрузить файл: </p>
+        <input  type="hidden" name="MAX_FILE_SIZE" value="300000">
+        <input  type="file" name="uploadFile">
+    </div>
+    <br>
+    <input  type="submit" name="upload" value="Загрузить">
+</form>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

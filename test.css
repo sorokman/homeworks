@@ -1,0 +1,21 @@
+body
+{
+    background-color: #bcbcbc;
+    text-align: center;
+}
+.main_header
+{
+    margin: 10px auto;
+    background-color: #00bf00;
+    border: solid 1px black;
+    width: 1150px;
+    height: 70px;
+}
+.main_header h1
+{
+    text-align: center;
+}
+.menu_naw
+{
+    margin-left: 50px;
+}
