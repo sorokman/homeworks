@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>admin_add_news</title>
+</head>
+<body>
+
+<form  method="post" action="http://ptah.ho.ua/php/add_news.php"   enctype=multipart/form-data>
+    <h2>Добавлнение новости:</h2>
+    <label>Загрузить картинку, фотографию: </label><br>
+    <input type="file" name="file" value=""><br><br>
+    <input type="text" name="news_text" value=""  placeholder="Название новости: "><br><br>
+    <textarea rows="10" cols="45" name="main_news_text" placeholder="Основной текст новости: "></textarea><br><br>
+    <input type="submit" value="сохранить">
+ 
+</form><br>
+  <button><a href="../html/ptah_admin_panel.html">выйти</a></button>
+</body>
+</html>
